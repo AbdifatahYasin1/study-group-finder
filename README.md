@@ -14,7 +14,7 @@ Built with React.js and Firebase, this project is designed to foster collaborati
 
 ## 👨‍💻 Built By
 
-- **[Mahamed Berry Huesin](https://github.com/Mohamed-Berry-Hussein)**  
+- **[Mohamed Berry Hussein](https://github.com/Mohamed-Berry-Hussein)**  
 - **[Abdifatah Yassen](https://github.com/AbdifatahYasin1)** 
 
 ---
