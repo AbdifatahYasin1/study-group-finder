@@ -1,48 +1,42 @@
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import Home from './pages/Home';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import Groups from './pages/Groups';
-import GroupDetails from './pages/GroupDetails';
-import Dashboard from './pages/Dashboard';
-import CreateGroups from './pages/CreateGroup';
-
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import Groups from "./pages/Groups";
+import GroupDetails from "./pages/GroupDetails";
+import Dashboard from "./pages/Dashboard";
+import CreateGroups from "./pages/CreateGroup";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <Home />,
   },
   {
-    path: '/login',
+    path: "/login",
     element: <Login />,
   },
   {
-    path: '/register',
+    path: "/register",
     element: <Register />,
   },
   {
-    path: '/groups',
-    element: <Groups/>
+    path: "/groups",
+    element: <Groups />,
   },
   {
-    path: 'groupdetails',
-    element : <GroupDetails/>
+    path: "groupdetails",
+    element: <GroupDetails />,
   },
   {
-    path: '/dashboard',
-    element : <Dashboard/>
+    path: "/dashboard",
+    element: <Dashboard />,
   },
   {
     path: "/creategroups",
-    element: <CreateGroups/>
-  }
-
-
+    element: <CreateGroups />,
+  },
 ]);
 
 export default function AppRoutes() {

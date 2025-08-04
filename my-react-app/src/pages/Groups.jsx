@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import StudyGroupList from "../components/StudyGroupList";
 
 function Groups() {
   return (
-    <div>Groups</div>
-  )
+    <div>
+      <StudyGroupList />
+    </div>
+  );
 }
 
-export default Groups
+export default Groups;
