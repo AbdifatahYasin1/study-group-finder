@@ -1,58 +1,38 @@
 const mockGroups = [
   {
     id: 1,
-    groupName: "Math Wizards",
+    groupName: "Algebra Masters",
     subject: "Mathematics",
-    subjectIcon: "🧮",
-    color: "#FFD700", // Gold for math
-    description: "Focused on algebra, geometry, and calculus exam prep.",
-    members: [
-      { name: "Alice Johnson", email: "alice@example.com" },
-      { name: "Bob Smith", email: "bob@example.com" },
-      { name: "Carlos Rivera", email: "carlos@example.com" },
-    ],
+    subjectIcon: "➗",
+    color: "#ff6347",
     meetingSchedule: {
-      day: "Wednesday",
-      time: "4:00 PM - 5:00 PM",
-      location: "Room 204",
+      day: "Monday",
+      time: "5:00 PM",
+      location: "Room 101",
     },
+    description: "Group focused on mastering algebra concepts.",
+    members: [
+      { name: "Alice", email: "alice@example.com" },
+      { name: "Bob", email: "bob@example.com" },
+    ],
   },
   {
     id: 2,
-    groupName: "History Buffs",
-    subject: "World History",
-    subjectIcon: "📚",
-    color: "#87CEEB", // Sky blue for history
-    description:
-      "Discuss historical events and prepare for AP World History exams.",
-    members: [
-      { name: "Dana White", email: "dana@example.com" },
-      { name: "Eli Brown", email: "eli@example.com" },
-    ],
-    meetingSchedule: {
-      day: "Monday",
-      time: "2:00 PM - 3:30 PM",
-      location: "Room 101",
-    },
-  },
-  {
-    id: 3,
-    groupName: "Science Explorers",
+    groupName: "Physics Enthusiasts",
     subject: "Physics",
     subjectIcon: "🔬",
-    color: "#90EE90", // Light green for science
-    description:
-      "Hands-on experiments and theory reviews for physics enthusiasts.",
-    members: [
-      { name: "Fiona Green", email: "fiona@example.com" },
-      { name: "George Black", email: "george@example.com" },
-    ],
+    color: "#4682b4",
     meetingSchedule: {
-      day: "Friday",
-      time: "10:00 AM - 11:00 AM",
-      location: "Lab 3",
+      day: "Wednesday",
+      time: "3:00 PM",
+      location: "Room 202",
     },
+    description: "Discuss and solve physics problems together.",
+    members: [
+      { name: "Carol", email: "carol@example.com" },
+      { name: "Dave", email: "dave@example.com" },
+    ],
   },
 ];
-console.log(mockGroups);
+
 export default mockGroups;
